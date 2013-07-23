@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="30sp"
+        android:background="@drawable/title"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/init_main_iv01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/zhuce" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/app_name_title2"
+            android:textColor="@color/OrangeRed"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/init_main_iv02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/denglu" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/init_main_gv01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:horizontalSpacing="50sp"
+        android:numColumns="2"
+        android:verticalSpacing="80sp" />
+
+</LinearLayout>
