@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zncm.EasyOrderMeal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InitMainActivity" />
+        <activity android:name=".ListMenuActivity" />
+        <activity android:name=".ListOrderActivity" />
+        <activity android:name=".ListRestaurantActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".GetInfoActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".AppLeadActivity" />
+        <activity android:name=".RestaurantCategoryActivity" />
+        <activity android:name=".PersonInfoActivity" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+</manifest>
